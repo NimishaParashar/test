@@ -1,0 +1,146 @@
+.exercise_intructions_view_wrapper {
+  .exercise_intructions_view_inner_wrapper {
+    .sec_1_wrapper {
+      margin: 20px 0;
+      .sec_1_inner_wrapper {
+        display: flex;
+        justify-content: flex-start;
+        .btn_wrapper {
+          button {
+            outline: none;
+            border: none;
+            background: transparent;
+          }
+        }
+        .text_content_wrapper {
+          margin: 0 10px;
+          .text_content {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 600;
+            color: #0f0404;
+          }
+        }
+      }
+    }
+    .sec_2_wrapper {
+      margin: 20px 0;
+      border-radius: 8px;
+      background-color: #ffffff;
+      .sec_2_inner_wrapper {
+        padding: 20px;
+        .sub_section_wrapper_1 {
+          background-color: #fcf8f8;
+          border-radius: 8px;
+          padding: 10px 0;
+          margin: 10px 0;
+          .text_content_wrapper_1 {
+            margin: 10px 0;
+            .text_content_1 {
+              margin: 0;
+              font-size: 24px;
+              font-weight: 500;
+              text-align: center;
+              color: #0f0404;
+            }
+          }
+          .text_content_wrapper_2 {
+            margin: 10px 0;
+            .text_content_2 {
+              margin: 0;
+              font-size: 14px;
+              font-weight: 500;
+              text-align: center;
+              color: #6b6876;
+            }
+          }
+        }
+        .sub_section_wrapper_2 {
+          padding: 10px 0;
+          margin: 10px 0;
+          .text_content_wrapper {
+            margin: 5px 0;
+            .text_content {
+              margin: 0;
+              font-size: 13px;
+              font-weight: 500;
+              text-align: center;
+              color: #6b6876;
+              img {
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+        .sub_section_wrapper_3 {
+          padding: 10px 0;
+          margin: 10px 0;
+          .btn_wrapper {
+            text-align: center;
+            button {
+              border: none;
+              outline: none;
+              width: 300px;
+              height: 40px;
+              border-radius: 25px;
+              background-color: #6d48ef;
+              font-size: 18px;
+              font-weight: 600;
+              text-align: center;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .exercise_intructions_view_wrapper {
+    .exercise_intructions_view_inner_wrapper {
+      .sec_1_wrapper {
+        .sec_1_inner_wrapper {
+          .btn_wrapper {
+            button {
+            }
+          }
+          .text_content_wrapper {
+            .text_content {
+            }
+          }
+        }
+      }
+      .sec_2_wrapper {
+        .sec_2_inner_wrapper {
+          .sub_section_wrapper_1 {
+            .text_content_wrapper_1 {
+              .text_content_1 {
+              }
+            }
+            .text_content_wrapper_2 {
+              .text_content_2 {
+              }
+            }
+          }
+          .sub_section_wrapper_2 {
+            .text_content_wrapper {
+              .text_content {
+                img {
+                }
+              }
+            }
+          }
+          .sub_section_wrapper_3 {
+            .btn_wrapper {
+              button {
+                width: 220px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

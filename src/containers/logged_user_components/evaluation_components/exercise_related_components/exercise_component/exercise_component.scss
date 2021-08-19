@@ -1,0 +1,27 @@
+.exercise_component_wrapper {
+  background: url("../../../../../utilities/images/homepage/homepage_1.png")
+        no-repeat;
+      background-size: cover;
+  overflow-y: scroll;
+  height: 100vh;
+  .exercise_component_inner_wrapper {
+    //background-color: #fafafb;
+    
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  .exercise_component_wrapper {
+    .exercise_component_inner_wrapper {
+    }
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .exercise_component_wrapper {
+    .exercise_component_inner_wrapper {
+    }
+  }
+}

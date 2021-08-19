@@ -1,0 +1,21 @@
+.exercise_result_component_wrapper {
+  .exercise_result_component_inner_wrapper {
+    background-color: #fafafb;
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  .exercise_result_component_wrapper {
+    .exercise_result_component_inner_wrapper {
+    }
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .exercise_result_component_wrapper {
+    .exercise_result_component_inner_wrapper {
+    }
+  }
+}

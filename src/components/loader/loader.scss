@@ -1,0 +1,26 @@
+.loader_pop_up_wrapper {
+  width: 100%;
+  position: fixed;
+  z-index: 9999999999999;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.72);
+  .loader_pop_up_inner_wrapper {
+    // width: 500px;
+    // text-align: center;
+    // padding: 15px;
+    // -webkit-border-radius: 9px;
+    // -moz-border-radius: 9px;
+    // -ms-border-radius: 9px;
+    // -o-border-radius: 9px;
+    // border-radius: 9px;
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}

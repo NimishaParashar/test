@@ -1,0 +1,40 @@
+.header_two_wrapper {
+  background-color: #ffffff;
+  .header_two_inner_wrapper {
+    padding: 25px 0;
+    .content_wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .left_side_content_wrapper {
+        flex: 0 0 100%;
+      }
+    }
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .header_two_wrapper {
+    .header_two_inner_wrapper {
+      padding: 15px 0;
+      .content_wrapper {
+        .left_side_content_wrapper {
+          .image_wrapper {
+            img {
+              width: 40%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

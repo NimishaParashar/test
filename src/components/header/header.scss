@@ -1,0 +1,56 @@
+.header_wrapper {
+  .header_inner_wrapper {
+    padding: 25px 0;
+    .content_wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .left_side_content_wrapper {
+        flex: 0 0 50%;
+      }
+      .right_side_content_wrapper {
+        flex: 0 0 50%;
+        .btn_wrapper {
+          text-align: right;
+          button {
+            border: none;
+            outline: none;
+            padding: 15px 25px;
+            border-radius: 24px;
+            box-shadow: 0 10px 16px 0 rgba(109, 72, 239, 0.16);
+            background-color: #6d48ef;
+            color: #ffffff;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .header_wrapper {
+    .header_inner_wrapper {
+      padding: 10px 0;
+      .content_wrapper {
+        .left_side_content_wrapper {
+          .image_wrapper {
+            img {
+              width: 100px;
+              height: 25px;
+            }
+          }
+        }
+        .right_side_content_wrapper {
+          .btn_wrapper {
+            button {
+              padding: 10px 15px;
+              border-radius: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
